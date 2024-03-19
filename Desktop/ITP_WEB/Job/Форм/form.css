@@ -1,0 +1,46 @@
+
+
+
+body{
+    margin-left: 50px;
+    background-color: rgb(194, 236, 236);
+    font-style: italic;
+    color: rgb(1, 59, 61);
+    font-size:20px;
+}
+.h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(6, 71, 50);
+    
+}
+fieldset{
+    width: 350px;
+    color: rgb(2, 7, 7);
+    background-color: rgb(86, 81, 148); 
+}
+legend{
+    
+    text-align: center;
+}
+h1{
+    
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(182, 4, 4);
+} 
+input{
+    margin-left: 20px;
+}
+.input2{
+    margin-left: 112px;
+}
+.input3{
+    margin-left: 113px;
+}
+.отправить{
+    margin-left: 290px;
+}
+

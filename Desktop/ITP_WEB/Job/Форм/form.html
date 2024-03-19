@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="pi">
+    <meta name="author" content="pi">
+    <meta name="keywords" content="pi">
+    <meta http-equiv="refresh" content="3"> 
+    <link rel="stylesheet" href="form.css">
+    
+   
+    <title> Таблица </title>
+</head>
+<body>
+    <h1 class="h1"> Формы в HTML</h1>
+    <h1 > Формы </h1>
+<form name="signup" action="#" method="post">
+    <div>
+
+
+        <fieldset>
+          <legend> жеке маалыматтар</legend>
+     
+         <p >
+        <label for="NAME">Имя пользователья</label>
+        <input type="text" name="username" id="NAME" placeholder="name">
+     </p>
+     <p>
+        <label for="E-mail"> Электронная почта</label>
+        <input type="email" name="email" id="E-mail" placeholder="E-mail">
+     </p>
+     <p>
+        <label for="AGE"> Возраст</label>
+        <input type="number" name="vos" class="input3" id="AGE" placeholder="age">
+     </p>
+     <p>
+        <label for="handy">Телефон</label>
+        <input type="number" name="Telefon" id="handy" class="input2" placeholder="contact">
+     </p>
+     <p>
+        <label for="password">Пароль</label>
+        <input type="password" name="password" id="password" class="input3" placeholder="password">
+     </p>
+     <p class="отправить">
+      <input type="submit" value="отправить">
+      <input type="reset" value="очистить">
+     </p>
+   </div>
+
+   </fieldset>
+
+   <fieldset>
+     <legend> Статистикалык маалыматтар</legend>
+
+    <br>
+    <p>
+        <label for="year"> Год рождение</label>
+        <select name="year" id="year">
+           <option value="2003"> 2003</option>
+           <option value="2004"> 2004</option>
+           <option value="2005"> 2005</option>
+        </select>
+      <p>
+        <label for="область"> 7 область</label>
+        <input type="submit">
+        <select id="область" size="4" multiple>
+         <option value="Бишкек"> Бишкек</option>
+         <option value="Чуй"> Чуй</option>
+         <option value="Талас"> Талас</option>
+         <option value="Нарын"> Нарын</option>
+         <option value="ош"> Ош</option>
+         <option value="Баткен"> Баткен</option>
+         <option value="Жалал абад"> Жалал абад</option>
+        </select>
+      </p>
+    </p>
+    <p>
+        <label for="birthday"> День рождение (Время)</label><br><br>
+        <input type="datetime-local" id="birthday" name="birthday">
+      </p><br><br>
+   
+     <p>
+      <label for="range"> Громкость</label>
+      <input type="range" name="range" id="range">
+     </p><br><br>
+ 
+   </fieldset>
+
+
+   <fieldset>
+      <legend> специальное возможности</legend>
+     <p>
+        <label for=""> Что вы хотите изучить</label><br><BR>
+        <input type="checkbox" name="rules"> HTML
+        <input type="checkbox" name="rules"> CSS
+        <input type="checkbox" name="rules"> JS
+      
+     </p><br><br>
+     <p>
+        <label for=""> Что вам больше нравиться</label><br><br>
+        <input type="radio" name="s" value="0"> Video
+        <input type="radio" name="s" value="1"> Book
+        <input type="radio" name="s" value="2"> Audio
+     </p><br><br>
+     <p>
+        <label for="avatar"> Загрузите фото</label><br><br>
+        <input type="file" name="avatar">
+      
+     </p><br><br>
+
+   </fieldset>
+
+
+  
+     <p>
+        <textarea name="text" id="text" cols="30" rows="10" placeholder="Введите текст сщщбщение"></textarea>
+     </p>
+     <p>
+        <input type="submit" name="signup" value="Зарегистрироваться">
+     </p>
+
+
+     <!-- ======================================================================================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+    <p>
+        <label for="fio"> Имя пользователья </label>
+        <input type="text" name="fio" id="fio">
+    </p>
+    <p>
+        <label for="das"> Электронная почта </label>
+        <input type="text">
+    </p>
+    <p>
+        <label for="vos"> Возраст </label>
+        <input type="number" name="vos" id="vos">
+    </p>
+    <p>
+        <label for="telefon"> Телефон</label>
+        <input type="number" name="telefon" id="telefon">
+    </p>
+    <p>
+        <label for="parol"> Пароль</label>
+        <input type="number" name="parol" id="parol">
+    </p>-->
+</form>
+
+
+
+
+</body>
